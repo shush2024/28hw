@@ -153,24 +153,23 @@
 // }
 
 // գ) այն թվաբանական պրոգրեսիա է
-// let d = [2,4,6,8,10,12,14,16]
-// let sum = true;
-// if(d.length > 1){
-//     diff = d[1] - d[0];
-//     for(let i = 0; i < d.length - 1; i++){
-//         if(d[i + 1] - d[i] !== diff){
-//             sum = false;
-//             break;
-//         }
-//     }
-// }
+let d = [2,4,6,8,10,12,14,16]
+let sum = true;
+ diff = d[1] - d[0];
+ for(let i = 1; i < d.length - 1; i++){
+        if(d[i + 1] - d[i] !== diff){
+            sum = false;
+            break;
+        }
+    }
 
-// if (sum) {
-//     console.log("YES");
+
+if (sum) {
+    console.log("YES");
     
-// }else{
-//     console.log("NO");
-// }
+}else{
+    console.log("NO");
+}
 
 
 // երկրաչափական պրոգրեսիա է
