@@ -37,7 +37,7 @@
 
 // let d = [1,2,3,55,125,259,1588,1254,11,26,25]
 // let count = 0;
-// for(let i = 0; i < d.length; i++){
+// for(let i = 1; i < d.length - 2; i++){
 //     left = d[ i - 1];
 //     right = d[ i + 1 ];
 //     sum = (left + right) / 2;
@@ -82,6 +82,34 @@
 // console.log(sum);
 
 // զ)առաջին մեծագույն և վերջին փոքրագույն տարրերի միջև գտնվող անդամների գումարը
+// let d = [4,15,3,9,7,10,5,2,1,8,9]
+// let max = d[0];
+// let maxIndex = 0;
+// for(let i = 0; i < d.length; i++){
+//     if(d[i]>max){
+//         max = d[i];
+//         maxIndex = d.length-1;
+//     }
+// }
+// console.log(maxIndex);
+
+// let min = d[d.length - 1];
+// let minIndex = d.length - 1;
+// for(let i = d.length-1; i >= 0; i--){
+//     if(d[i]<min){
+//         min = d[i];
+//         minIndex = i;
+//     }
+// }
+
+// console.log(minIndex);
+// let sum = 0;
+// for(let i = maxIndex + 1; i < minIndex; i++){
+//     sum += d[i];
+// }
+// console.log(sum);
+
+
 
 
 // է)մեծագույն և մեծությամբ երկրորդ տարրերը
