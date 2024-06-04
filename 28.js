@@ -131,45 +131,49 @@
 // neg++;}
 // }
 
-// if( pos > neg){
-//     console.log("YES");
-// }else{
-//     console.log("NO");
+//   if( pos > neg){
+//     console.log("No");
+// } else if(pos = neg){
+//     console.log("They are equal");
 // }
+//   else{
+//     console.log("No");
+//   }
+
+
 
 // բ) այն սիմետրիկ հաջորդականություն է
-// let d = [1,2,3,4,4,3,2,1];
-// let isSymetric = true;
-// for(let i = 0; i < d.length; i++){
-//     if(d[i] !== d[d.lenght - 1 - i]){
-//     isSymetric = false;
-//     break;
+// let d = [2,2,3,3,2,2];
+// let d1 = [];
+// for(let i = d.length - 1; i >= 0; i--){
+//     d1.push(d[i])
+
 //     }
+// if(d.toString() === d1.toString()){
+//     console.log("Yes");
+// }else{
+//    console.log("No");
 // }
-// if(isSymetric = true){
+
+
+// գ) այն թվաբանական պրոգրեսիա է
+// let d = [2,4,6,8,10,12,14,16]
+// let sum = true;
+//  diff = d[1] - d[0];
+//  for(let i = 1; i < d.length - 1; i++){
+//         if(d[i + 1] - d[i] !== diff){
+//             sum = false;
+//             break;
+//         }
+//     }
+
+
+// if (sum) {
 //     console.log("YES");
+    
 // }else{
 //     console.log("NO");
 // }
-
-// գ) այն թվաբանական պրոգրեսիա է
-let d = [2,4,6,8,10,12,14,16]
-let sum = true;
- diff = d[1] - d[0];
- for(let i = 1; i < d.length - 1; i++){
-        if(d[i + 1] - d[i] !== diff){
-            sum = false;
-            break;
-        }
-    }
-
-
-if (sum) {
-    console.log("YES");
-    
-}else{
-    console.log("NO");
-}
 
 
 // երկրաչափական պրոգրեսիա է
